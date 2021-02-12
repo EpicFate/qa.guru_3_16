@@ -51,8 +51,8 @@ public class ApiSimpleTests {
     @Test
     void createNewUserTest() {
         String data = "{\n" +
-                "\"name\": \"Demon\",\n" +
-                "\"job\": \"On vam ne Demon\"\n" +
+                "\"name\": \"Demon\"," +
+                "\"job\": \"On vam ne Demon\"" +
                 "}";
 
         given()
